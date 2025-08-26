@@ -1,0 +1,6 @@
+@DotNetTrainingBatch2.DiSample_HostAddress = http://localhost:5298
+
+GET {{DotNetTrainingBatch2.DiSample_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

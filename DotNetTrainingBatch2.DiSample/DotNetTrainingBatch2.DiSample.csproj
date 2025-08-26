@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetTrainingBatch2.DiSample.BL\DotNetTrainingBatch2.DiSample.BL.csproj" />
+    <ProjectReference Include="..\DotNetTrainingBatch2.DiSample.Database\DotNetTrainingBatch2.DiSample.Database.csproj" />
+    <ProjectReference Include="..\DotNetTrainingBatch2.DiSample.DA\DotNetTrainingBatch2.DiSample.DA.csproj" />
+  </ItemGroup>
+
+</Project>
